@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(236,238,241);
+}
+
+#main {
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+fieldset {
+    border: 0;
+}
+
+input {
+    margin-top: 50px;
+}
