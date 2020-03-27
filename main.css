@@ -14,7 +14,7 @@ body {
     border-width: 1px;
     text-align: center;
     background-color: white;
-    width: 25%;
+    width: 30%;
     margin: auto;
 }
 
@@ -48,9 +48,23 @@ input {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 20px;
+    height: 30px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
 }
 
 button {
     width: 92%;
     margin: auto;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: black;
 }
