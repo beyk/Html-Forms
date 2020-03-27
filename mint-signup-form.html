@@ -3,14 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
         <title>Mint Sign Up Page</title>
     </head>
     <body>
-        <header>
+        <header class="page-header">
+            
+                <div>
+                    <p>Already have an Intuit account?</p>
+                    <p>I forgot my User ID or Password </p>
+                </div>
+                <div>
+                    <button class="btn" type="submit" form="signin-form" value="Signin"><i class="fa fa-lock"></i> Sign in</button>
+                    
+                </div>
 
+            
         </header>
+        
         <main>
             <div id="logos">
                 <div>
@@ -46,7 +57,8 @@
                     </fieldset>
 
                     <div>
-                        <button type="submit" form="signup-form"><i class="fas fa-lock"></i>Submit</button>
+                        <button class="btn" type="submit" form="signup-form" value="Submit"><i class="fa fa-lock"></i> Create Account</button>
+                        
                     </div>
 
                 </form>
