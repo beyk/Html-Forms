@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Mint Sign Up Page</title>
     </head>
     <body>
@@ -11,13 +12,15 @@
 
         </header>
         <main>
-            <div>
-                <img src="images/intuit-logo.png"/>
-            </div>
-            <div>
-                <img src="images/blue.png"/><span>mint</span>
-                <img src="images/green.png"/><span>quickbooks</span>
-                <img src="images/red.png"/><span>turbotax</span>
+            <div id="logos">
+                <div>
+                    <img src="images/intuit-logo.png"/>
+                </div>
+                <div>
+                    <img src="images/blue.png"/><span>mint</span>
+                    <img src="images/green.png"/><span>quickbooks</span>
+                    <img src="images/red.png"/><span>turbotax</span>
+                </div>
             </div>
 
             <div id="main">
@@ -43,7 +46,7 @@
                     </fieldset>
 
                     <div>
-                        <button type="submit" form="signup-form" value="Submit">Submit</button>
+                        <button type="submit" form="signup-form"><i class="fas fa-lock"></i>Submit</button>
                     </div>
 
                 </form>

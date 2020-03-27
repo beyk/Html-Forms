@@ -7,12 +7,32 @@ body {
     border-width: 1px;
     text-align: center;
     background-color: white;
+    width: 25%;
+    margin: auto;
+}
+
+#logos {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 fieldset {
     border: 0;
 }
 
+label {
+    display: block;
+    text-align: left;
+}
+
 input {
-    margin-top: 50px;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 92%;
+    margin: auto;
 }
