@@ -22,7 +22,10 @@ h2 {
     margin-top: 5px;
     margin-bottom: 0px;
 }
-
+.logos-text{
+    bottom: 8px;
+    position: relative;
+}
 #main {
     border: solid;
     border-radius: 3px;
