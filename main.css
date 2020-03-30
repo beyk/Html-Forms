@@ -2,6 +2,14 @@ body {
     background-color: rgb(236,238,241);
 }
 
+div input {
+    border-color: #8D9096;
+}
+
+/*.gray-border {
+    border-color: #8D9096;
+}*/
+
 .page-header{
     display: flex;
     font-family: AvenirNext, Avenir, Helvetica, Neue, Helvetica, Arial, sans-serif;
@@ -16,7 +24,9 @@ body {
 
 #main {
     border: solid;
+    border-radius: 3px;
     border-width: 1px;
+    border-color: #8D9096;
     text-align: center;
     background-color: white;
     width: 30%;
@@ -26,6 +36,20 @@ body {
 #logos {
     text-align: center;
     margin-bottom: 20px;
+}
+
+#logos img {
+    margin-left: 5px;
+}
+
+#logos-small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logos span {
+    margin-left: 2px;
 }
 
 fieldset {
@@ -39,14 +63,14 @@ label {
 
 .btn {
     background-color: DodgerBlue;
-    border: none;
+    border: 1px solid black;
     color: white;
     padding: 12px 16px;
     font-size: 16px;
     cursor: pointer;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 10px;
+    text-align: center;
   }
 
 input {
@@ -58,6 +82,7 @@ input {
     border-radius: 3px;
     border-style: solid;
     border-width: 1px;
+
 }
 
 button {
