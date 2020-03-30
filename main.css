@@ -59,11 +59,19 @@ fieldset {
     border: 0;
 }
 
+<<<<<<< HEAD
 #password{
     background-image:url(images/unlock.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size:contain;
+=======
+#lock-icon input[placeholder] {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+>>>>>>> bd9121e5222708c9b043cd6bbc3843fc660e4e5e
 }
 
 label {
