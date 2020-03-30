@@ -56,6 +56,10 @@ fieldset {
     border: 0;
 }
 
+#lock-icon {
+    background-image: url("http://icon-library.com/icon/unlock-icon-15.html");
+}
+
 label {
     display: block;
     text-align: left;
