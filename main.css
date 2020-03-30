@@ -2,10 +2,6 @@ body {
     background-color: rgb(236,238,241);
 }
 
-div input {
-    border-color: #8D9096;
-}
-
 /*.gray-border {
     border-color: #8D9096;
 }*/
@@ -56,8 +52,11 @@ fieldset {
     border: 0;
 }
 
-#lock-icon {
-    background-image: url("http://icon-library.com/icon/unlock-icon-15.html");
+#password{
+    background-image:url(images/unlock.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:contain;
 }
 
 label {
