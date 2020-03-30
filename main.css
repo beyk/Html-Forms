@@ -1,16 +1,17 @@
 body {
     background-color: rgb(236,238,241);
 }
-p,label{
+p, h2, span, label{
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #4C4C4C;
 }
 /*.gray-border {
     border-color: #8D9096;
 }*/
-a{
-    color: #0077C5;
-    text-decoration: none;
-    
+
+h2 {
+    color: #4C4C4C;
+    font-weight: lighter;
 }
 
 .page-header{
@@ -36,6 +37,18 @@ a{
     margin: auto;
 }
 
+#main p {
+    color: #4C4C4C;
+    font-size: 14px;
+}
+
+#main a {
+    color: #0077C5;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
 #logos {
     text-align: center;
     margin-bottom: 20px;
@@ -57,21 +70,6 @@ a{
 
 fieldset {
     border: 0;
-}
-
-<<<<<<< HEAD
-#password{
-    background-image:url(images/unlock.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size:contain;
-=======
-#lock-icon input[placeholder] {
-    width: 100%;
-    text-align: center;
-    position: relative;
-    border: 1px solid black;
->>>>>>> bd9121e5222708c9b043cd6bbc3843fc660e4e5e
 }
 
 label {
@@ -97,10 +95,18 @@ input {
     margin-top: 10px;
     margin-bottom: 20px;
     height: 30px;
+    border-color: #8D9096;
     border-radius: 3px;
     border-style: solid;
     border-width: 1px;
 
+}
+
+#password {
+    background-image:url(images/unlock.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:contain;
 }
 
 button {
@@ -110,7 +116,7 @@ button {
     border-style: solid;
     border-width: 1px;
 }
-form>p{
+form > p{
     font-style: italic;
     color:#8D9096 ;
     font-size: 9pt;
@@ -118,14 +124,9 @@ form>p{
     margin-right: 40px;
     
 }
-#form-Invisible-reCAPTCHA-p{
-    font-size: 8pt;
-    color:#8D9096 ;
-}
-#form-Invisible-reCAPTCHA-p
-footer {
-    margin-top: 30px;
-    text-align: center;
+
+form a {
+    display: inline;
 }
 
 footer a:link {
@@ -133,29 +134,61 @@ footer a:link {
     color: black;
 }
 
+#create-account a {
+    display: inline;
+}
+
 #form-Invisible-reCAPTCHA-p
 {
+    font-size: 8pt;
+    color:#8D9096 ;
     width: 100%;
-    height: 50px;
-    padding-top: 20px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: rgb(236,238,241);
 }
+
+#form-Invisible-reCAPTCHA-p a {
+    display: inline;
+}
+
+#form-Invisible-reCAPTCHA-p footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
 #footer-links
 {
+    display: flex;
     padding-right: 10px;
+    margin-top: 10px;
     color: rgb(80,80,80);
-
+    justify-content: center;
 
 }
+
 #footer-links a:hover{
     text-decoration: underline;
 }
-#footer-links a{
-    margin-right: 20px;
+
+#footer-links a {
+    color: DodgerBlue;
+    font-family: AvenirNext, Avenir, Helvetica, Neue, Helvetica, Arial, sans-serif;
+    margin-right: 10px;
     font-size: 10pt;
 }
-footer p {
-    margin-left: 25%;
-    margin-right: 25%;
-    font-size: 10pt;
+
+footer div {
+    width: 100%;
+    margin: auto;
+}
+
+footer > div > p {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 9pt;
+    text-align: center;
 }
