@@ -43,6 +43,7 @@ a{
 
 #logos img {
     margin-left: 5px;
+    animation: fade is ease forwards;
 }
 
 #logos-small {
@@ -158,4 +159,15 @@ footer p {
     margin-left: 25%;
     margin-right: 25%;
     font-size: 10pt;
+}
+div #logos {
+    animation: fade is ease forwards;
+}
+@keyframes fade{
+    form{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
 }
