@@ -1,10 +1,17 @@
 body {
     background-color: rgb(236,238,241);
 }
-
+p,label{
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 /*.gray-border {
     border-color: #8D9096;
 }*/
+a{
+    color: #0077C5;
+    text-decoration: none;
+    
+}
 
 .page-header{
     display: flex;
@@ -95,7 +102,19 @@ button {
     border-style: solid;
     border-width: 1px;
 }
-
+form>p{
+    font-style: italic;
+    color:#8D9096 ;
+    font-size: 9pt;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+#form-Invisible-reCAPTCHA-p{
+    font-size: 8pt;
+    color:#8D9096 ;
+}
+#form-Invisible-reCAPTCHA-p
 footer {
     margin-top: 30px;
     text-align: center;
@@ -105,11 +124,7 @@ footer a:link {
     text-decoration: none;
     color: black;
 }
-form p{
-    font-size: 8pt;
-    text-align: center;
-    font-weight: 400;
-}
+
 #form-Invisible-reCAPTCHA-p
 {
     width: 100%;
