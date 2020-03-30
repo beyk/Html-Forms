@@ -1,6 +1,7 @@
 body {
     background-color: rgb(236,238,241);
 }
+
 .page-header{
     display: flex;
     font-family: AvenirNext, Avenir, Helvetica, Neue, Helvetica, Arial, sans-serif;
@@ -92,8 +93,8 @@ form p{
 {
     padding-right: 10px;
     color: rgb(80,80,80);
-   
-    
+
+
 }
 #footer-links a:hover{
     text-decoration: underline;
