@@ -125,13 +125,25 @@ input {
 
 }
 
-#password {
+#pass {
+    position: relative;
+}
+
+#pass i {
+    font-size: 14pt;
+    color: #8D9096;
+    right: 20px;
+    top: 40px;
+    position: absolute;
+}
+
+/*#password {
     background-image:url(images/unlock.png);
     
     background-repeat: no-repeat;
     background-position: right;
     background-size: 20px;
-}
+}*/
 
 button {
     width: 92%;

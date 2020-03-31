@@ -3,23 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/774f0ae2db.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="main.css">
         <title>Mint Sign Up Page</title>
     </head>
     <body>
-        <header class="page-header">
-            
-                <div>
-                    <p>Already have an Intuit account?</p>
-                    <p><a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS#"> forgot my User ID or Password </a></p>
-                </div>
-                <div>
-                    <button id="sign-in-btn" class="btn" type="submit"  value="Signin"><i class="fa fa-lock"></i> Sign in</button>
+        
+        <header class="page-header">            
+            <div>
+                <p>Already have an Intuit account?</p>
+                <p><a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS#"> forgot my User ID or Password </a></p>
+            </div>
+            <div>
+                <button id="sign-in-btn" class="btn" type="submit"  value="Signin"><i class="fa fa-lock"></i> Sign in</button>
                     
-                </div>
-
-            
+            </div>            
         </header>
         
         <main>
@@ -52,11 +50,10 @@
                         <p id="standard-call-text">Standard call, messaging or data rates may apply.</p>
                     </fieldset>
                     
-                    <fieldset>
+                    <fieldset id="pass">
                         <label>Password</label>
-                            <div id="lock-icon">
-                                <input type="password" id="password">
-                            </div>
+                        <input type="password" id="password">
+                        <i class="fas fa-lock-open"></i>
                     </fieldset>
 
                     <div>
