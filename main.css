@@ -1,32 +1,36 @@
 body {
     background-color: rgb(236,238,241);
 }
-p, h2, span, label{
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #4C4C4C;
+
+p, h2, span, label {
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #4c4c4c;
 }
 
 h2 {
-    color: #4C4C4C;
+    color: #4c4c4c;
     font-weight: lighter;
 }
 
-.page-header{
+.page-header {
     display: flex;
     font-family: AvenirNext, Avenir, Helvetica, Neue, Helvetica, Arial, sans-serif;
     justify-content: right;
     margin-left: 70%;
 }
-.page-header p{
+
+.page-header p {
     font-size: 10pt;
     margin-top: 5px;
     margin-bottom: 0px;
     margin-right: 10px;
 }
-.logos-text{
+
+.logos-text {
     bottom: 8px;
     position: relative;
 }
+
 #main {
     border: solid;
     border-radius: 3px;
@@ -39,28 +43,29 @@ h2 {
 }
 
 #main p {
-    color: #4C4C4C;
+    color: #4c4c4c;
     font-size: 14px;
 }
 
 #main a {
-    color: #0077C5;
+    color: #0077c5;
     text-decoration: none;
     display: block;
     text-align: center;
 }
+
 #site-logo
 {
     margin-bottom: 10px;
 }
+
 #logos {
     text-align: center;
     margin-bottom: 20px;
 }
 
 #logos img {
-    margin-left: 5px;
-    
+    margin-left: 5px; 
 }
 
 #logos-small {
@@ -93,17 +98,16 @@ label {
     margin-top: 5px;
     text-align: center;
     height: auto;
-    
   }
+
   #have-an-acc-txt
   {
       margin-right: 5px;
   }
+  
   #sign-in-btn{
       
      width: auto;
-      
-    
   }
 
 input {
@@ -112,17 +116,15 @@ input {
     margin-top: 10px;
     margin-bottom: 0px;
     height: 30px;
-    border-color: #8D9096;
+    border-color: #8d9096;
     border-radius: 3px;
     border-style: solid;
     border-width: 1px;
-
 }
 #standard-call-text{
     margin-top: 0px;
     float: left;
      font-size: 8pt !important; 
-
 }
 
 #pass {
@@ -131,19 +133,11 @@ input {
 
 #pass i {
     font-size: 14pt;
-    color: #8D9096;
+    color: #8d9096;
     right: 20px;
     top: 40px;
     position: absolute;
 }
-
-/*#password {
-    background-image:url(images/unlock.png);
-    
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 20px;
-}*/
 
 button {
     width: 92%;
@@ -152,13 +146,12 @@ button {
     border-style: solid;
     border-width: 1px;
 }
-form > p{
+form > p {
     font-style: italic;
-    color:#8D9096 ;
+    color:#8d9096 ;
     font-size: 9pt;
     margin-left: 40px;
-    margin-right: 40px;
-    
+    margin-right: 40px;  
 }
 
 form a {
@@ -177,7 +170,7 @@ footer a:link {
 #form-Invisible-reCAPTCHA-p
 {
     font-size: 8pt;
-    color:#8D9096 ;
+    color:#8d9096 ;
     width: 100%;
     height: auto;
     padding-top: 10px;
@@ -201,10 +194,9 @@ footer a:link {
     margin-top: 10px;
     color: rgb(80,80,80);
     justify-content: center;
-
 }
 
-#footer-links a:hover{
+#footer-links a:hover {
     text-decoration: underline;
 }
 
@@ -221,9 +213,8 @@ footer > div > p {
     margin-top: 5px;
     text-align: center;
     font-size: 9pt;
-    
 }
-#copy-right{
+#copy-right {
     margin-left: 20%;
     margin-right: 20%;
 }
