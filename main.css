@@ -54,8 +54,7 @@ h2 {
     text-align: center;
 }
 
-#site-logo
-{
+#site-logo {
     margin-bottom: 10px;
 }
 
@@ -65,7 +64,7 @@ h2 {
 }
 
 #logos img {
-    margin-left: 5px; 
+    margin-left: 5px;
 }
 
 #logos-small {
@@ -98,36 +97,39 @@ label {
     margin-top: 5px;
     text-align: center;
     height: auto;
-  }
+}
 
   #have-an-acc-txt
   {
       margin-right: 5px;
-  }
+    }
   
-  #sign-in-btn{
-      
+  #sign-in-btn 
+  { 
      width: auto;
   }
+  
+  input {
+      width: 100%;
+      text-align: left;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      height: 30px;
+      border-color: #8d9096;
+      border-radius: 3px;
+      border-style: solid;
+      border-width: 1px;
+    }
 
-input {
-    width: 100%;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    height: 30px;
-    border-color: #8d9096;
-    border-radius: 3px;
-    border-style: solid;
-    border-width: 1px;
-}
-#standard-call-text{
+#standard-call-text 
+{
     margin-top: 0px;
     float: left;
-     font-size: 8pt !important; 
+    font-size: 8pt !important;
 }
 
-#pass {
+#pass
+{
     position: relative;
 }
 
@@ -146,12 +148,13 @@ button {
     border-style: solid;
     border-width: 1px;
 }
+
 form > p {
     font-style: italic;
-    color:#8d9096 ;
+    color:#8d9096;
     font-size: 9pt;
     margin-left: 40px;
-    margin-right: 40px;  
+    margin-right: 40px;
 }
 
 form a {
@@ -167,10 +170,10 @@ footer a:link {
     display: inline;
 }
 
-#form-Invisible-reCAPTCHA-p
+#form-Invisible-reCAPTCHA-p 
 {
     font-size: 8pt;
-    color:#8d9096 ;
+    color: #8d9096;
     width: 100%;
     height: auto;
     padding-top: 10px;
@@ -187,7 +190,7 @@ footer a:link {
     text-align: center;
 }
 
-#footer-links
+#footer-links 
 {
     display: flex;
     padding-right: 10px;
