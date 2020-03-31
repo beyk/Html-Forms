@@ -21,6 +21,7 @@ h2 {
     font-size: 10pt;
     margin-top: 5px;
     margin-bottom: 0px;
+    margin-right: 10px;
 }
 .logos-text{
     bottom: 8px;
@@ -94,9 +95,13 @@ label {
     height: auto;
     
   }
+  #have-an-acc-txt
+  {
+      margin-right: 5px;
+  }
   #sign-in-btn{
-      width: 150px;
-      margin-left: 20px;
+      
+     width: auto;
       
     
   }
@@ -122,9 +127,10 @@ input {
 
 #password {
     background-image:url(images/unlock.png);
+    
     background-repeat: no-repeat;
     background-position: right;
-    background-size:contain;
+    background-size: 20px;
 }
 
 button {
