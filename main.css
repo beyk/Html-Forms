@@ -144,8 +144,7 @@ footer p {
   width: 90%;
   background-color: DodgerBlue;
   border: 1px solid white;
-  border-bottom: 1px solid #4c4c4c;
-  border-bottom: 1px solid;
+  border-bottom: 0.5px solid #4c4c4c;
   border-radius: 4px;
   color: white;
   padding: 12px 16px;
