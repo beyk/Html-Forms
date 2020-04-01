@@ -7,7 +7,7 @@ In this project, we created:
 2. Sign up form as the main section of the page. We have three input fields and a create account button. We also have privacy policy and terms of service declaration in a paragraph inside the form area.
 3. Footer section with copyright declaration at the bottom of the page.
 
-![App screenshot](images/mint-screenshot.png)
+![App screenshot](./images/mint-screenshot.png)
 
 # Built With
 Languages used in this project: HTML5 and CSS3
