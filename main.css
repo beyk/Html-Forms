@@ -53,7 +53,7 @@ form p {
 }
 
 footer {
-  margin-top: 25px;;
+  margin-top: 25px;
 }
 
 footer p {
@@ -133,7 +133,7 @@ footer p {
 
 #logos span {
   margin-left: 2px;
-  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .btn {
@@ -141,7 +141,7 @@ footer p {
   background-color: DodgerBlue;
   border: 1px solid white;
   border-bottom: 1px solid #4c4c4c;
-  border-bottom: 1px solid ;
+  border-bottom: 1px solid;
   border-radius: 4px;
   color: white;
   padding: 12px 16px;
