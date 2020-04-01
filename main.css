@@ -18,7 +18,7 @@ h2 {
 fieldset {
   border: 0;
 }
-  
+
 label {
   display: block;
   text-align: left;
@@ -35,7 +35,7 @@ input {
   border-style: solid;
   border-width: 1px;
 }
-  
+
 button {
   width: 92%;
   margin: auto;
@@ -43,7 +43,7 @@ button {
   border-style: solid;
   border-width: 1px;
 }
-    
+
 form > p {
   font-style: italic;
   color: #8d9096;
@@ -51,9 +51,16 @@ form > p {
   margin-left: 40px;
   margin-right: 40px;
 }
-    
+
 form a {
   display: inline;
+}
+
+.create-account a {
+  color: #0077c5;
+  text-decoration: none;
+  display: block;
+  text-align: center;
 }
     
 footer a:link {
@@ -100,13 +107,6 @@ footer > div > p {
 .create-account p {
   color: #4c4c4c;
   font-size: 14px;
-}
-
-.create-account a {
-  color: #0077c5;
-  text-decoration: none;
-  display: block;
-  text-align: center;
 }
 
 #site-logo {
