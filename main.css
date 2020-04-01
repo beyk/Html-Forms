@@ -29,6 +29,7 @@ label {
   display: block;
   text-align: left;
   padding-left: 5px;
+  font-size: 14px;
 }
 
 input {
@@ -94,21 +95,6 @@ footer p {
   padding: 0 20px;
 }
 
-.create-account {
-  border: 1px solid #8d9096;
-  border-radius: 3px;
-  text-align: center;
-  background-color: white;
-  width: 380px;
-  margin: auto;
-}
-
-.create-account p {
-  color: #4c4c4c;
-  font-size: 12px;
-  line-height: 1.5;
-}
-
 .block-display {
   display: block;
   text-align: center;
@@ -139,6 +125,21 @@ footer p {
   font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.create-account {
+  border: 1px solid #8d9096;
+  border-radius: 3px;
+  text-align: center;
+  background-color: white;
+  width: 380px;
+  margin: auto;
+}
+
+.one-account {
+  color: #4c4c4c;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
 .btn {
   width: 90%;
   background-color: DodgerBlue;
@@ -151,7 +152,7 @@ footer p {
   font-size: 16px;
   cursor: pointer;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 0;
   text-align: center;
   height: auto;
 }
@@ -182,6 +183,14 @@ footer p {
   right: 25px;
   top: 42px;
   position: absolute;
+}
+
+.agree-terms {
+  color: #4c4c4c;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #form-Invisible-reCAPTCHA-p {
