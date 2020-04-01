@@ -1,216 +1,217 @@
 body {
-    background-color: rgb(236,238,241);
+  background-color: rgb(236,238,241);
 }
 
-p, h2, span, label {
-    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #4c4c4c;
+p, span, label {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4c4c4c;
+}
+
+h2 {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4c4c4c;
+  font-weight: lighter; 
 }
 
 .page-header {
-    display: flex;
-    font-family: AvenirNext, Avenir, Helvetica, Neue, Helvetica, Arial, sans-serif;
-    justify-content: flex-end;
-    margin-left: 70%;
+  display: flex;
+  font-family: AvenirNext, Avenir, Helvetica, Neue, Helvetica, Arial, sans-serif;
+  justify-content: flex-end;
+  margin-left: 70%;
 }
 
 .page-header p {
-    font-size: 10pt;
-    margin-top: 5px;
-    margin-bottom: 0;
-    margin-right: 10px;
+  font-size: 10pt;
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-right: 10px;
 }
 
 .logos-text {
-    bottom: 8px;
-    position: relative;
+  bottom: 8px;
+  position: relative;
 }
 
 .create-account {
-    border: 1px solid #8D9096;
-    border-radius: 3px;
-    text-align: center;
-    background-color: white;
-    width: 30%;
-    margin: auto;
+  border: 1px solid #8D9096;
+  border-radius: 3px;
+  text-align: center;
+  background-color: white;
+  width: 30%;
+  margin: auto;
 }
 
 .create-account p {
-    color: #4c4c4c;
-    font-size: 14px;
+  color: #4c4c4c;
+  font-size: 14px;
 }
 
 .create-account a {
-    color: #0077c5;
-    text-decoration: none;
-    display: block;
-    text-align: center;
+  color: #0077c5;
+  text-decoration: none;
+  display: block;
+  text-align: center;
 }
 
 #site-logo {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #logos {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 #logos img {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 #logos-small {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #logos span {
-    margin-left: 2px;
+  margin-left: 2px;
 }
 
 fieldset {
-    border: 0;
+  border: 0;
 }
 
 label {
-    display: block;
-    text-align: left;
+  display: block;
+  text-align: left;
 }
 
 .btn {
-    background-color: DodgerBlue;
-    border: 1px solid black;
-    color: white;
-    padding: 12px 16px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    margin-top: 5px;
-    text-align: center;
-    height: auto;
+  background-color: DodgerBlue;
+  border: 1px solid black;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  text-align: center;
+  height: auto;
 }
 
-  #have-an-acc-txt
-  {
-      margin-right: 5px;
-    }
+#have-an-acc-txt {
+  margin-right: 5px;
+}
   
-  #sign-in-btn 
-  { 
-     width: auto;
-  }
-  
-  input {
-      width: 100%;
-      text-align: left;
-      margin-top: 10px;
-      margin-bottom: 0px;
-      height: 30px;
-      border-color: #8d9096;
-      border-radius: 3px;
-      border-style: solid;
-      border-width: 1px;
-    }
-
-#standard-call-text 
-{
-    margin-top: 0px;
-    float: left;
-    font-size: 8pt !important;
+#sign-in-btn {
+  width: auto;
 }
 
-#pass
-{
-    position: relative;
+input {
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 30px;
+  border-color: #8d9096;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#standard-call-text {
+  margin-top: 0px;
+  float: left;
+  font-size: 8pt !important;
+}
+
+#pass {
+  position: relative;
 }
 
 #pass i {
-    font-size: 14pt;
-    color: #8d9096;
-    right: 20px;
-    top: 40px;
-    position: absolute;
+  font-size: 14pt;
+  color: #8d9096;
+  right: 20px;
+  top: 40px;
+  position: absolute;
 }
 
 button {
-    width: 92%;
-    margin: auto;
-    border-radius: 3px;
-    border-style: solid;
-    border-width: 1px;
+  width: 92%;
+  margin: auto;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
 }
 
 form > p {
-    font-style: italic;
-    color:#8d9096;
-    font-size: 9pt;
-    margin-left: 40px;
-    margin-right: 40px;
+  font-style: italic;
+  color:#8d9096;
+  font-size: 9pt;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 form a {
-    display: inline;
+  display: inline;
 }
 
 footer a:link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 #create-account a {
-    display: inline;
+  display: inline;
 }
 
-#form-Invisible-reCAPTCHA-p 
-{
-    font-size: 8pt;
-    color: #8d9096;
-    width: 100%;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(236,238,241);
+#form-Invisible-reCAPTCHA-p {
+  font-size: 8pt;
+  color: #8d9096;
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(236,238,241);
 }
 
 #form-Invisible-reCAPTCHA-p a {
-    display: inline;
+  display: inline;
 }
 
 #form-Invisible-reCAPTCHA-p footer {
-    margin-top: 30px;
-    text-align: center;
+  margin-top: 30px;
+  text-align: center;
 }
 
-#footer-links 
-{
-    display: flex;
-    padding-right: 10px;
-    margin-top: 10px;
-    color: rgb(80,80,80);
-    justify-content: center;
+#footer-links {
+  display: flex;
+  padding-right: 10px;
+  margin-top: 10px;
+  color: rgb(80,80,80);
+  justify-content: center;
 }
 
 #footer-links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #footer-links a {
-    color: DodgerBlue;
-    font-family: AvenirNext, Avenir, Helvetica, Neue, Helvetica, Arial, sans-serif;
-    margin-right: 10px;
-    font-size: 10pt;
+  color: DodgerBlue;
+  font-family: AvenirNext, Avenir, Helvetica, Neue, Helvetica, Arial, sans-serif;
+  margin-right: 10px;
+  font-size: 10pt;
 }
 
 footer > div > p {
-    width: 100%;
-    height: auto;
-    margin-top: 5px;
-    text-align: center;
-    font-size: 9pt;
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 9pt;
 }
+
 #copy-right {
-    margin-left: 20%;
-    margin-right: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
