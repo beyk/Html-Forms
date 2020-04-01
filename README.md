@@ -13,7 +13,7 @@ In this project, we created:
 Languages used in this project: HTML5 and CSS3
 
 # Live Version
-Live version available [here](https://rawcdn.githack.com/beyk/Html-Forms/425773cb56f2471ff0b6ac64be5a671d517ffb63/mint-signup-form.html)
+Live version available [here](https://rawcdn.githack.com/beyk/Html-Forms/1484ef3af82a5dfdd0a4906b15295aca47504a44/mint-signup-form.html)
 
 # Athors
 Author1: [@beyk](https://github.com/beyk)
