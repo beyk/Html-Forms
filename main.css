@@ -7,22 +7,17 @@ p, h2, span, label {
     color: #4c4c4c;
 }
 
-h2 {
-    color: #4c4c4c;
-    font-weight: lighter;
-}
-
 .page-header {
     display: flex;
     font-family: AvenirNext, Avenir, Helvetica, Neue, Helvetica, Arial, sans-serif;
-    justify-content: right;
+    justify-content: flex-end;
     margin-left: 70%;
 }
 
 .page-header p {
     font-size: 10pt;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-right: 10px;
 }
 
@@ -31,23 +26,21 @@ h2 {
     position: relative;
 }
 
-#main {
-    border: solid;
+.create-account {
+    border: 1px solid #8D9096;
     border-radius: 3px;
-    border-width: 1px;
-    border-color: #8D9096;
     text-align: center;
     background-color: white;
     width: 30%;
     margin: auto;
 }
 
-#main p {
+.create-account p {
     color: #4c4c4c;
     font-size: 14px;
 }
 
-#main a {
+.create-account a {
     color: #0077c5;
     text-decoration: none;
     display: block;
