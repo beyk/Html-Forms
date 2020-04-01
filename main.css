@@ -83,9 +83,12 @@ footer p {
 }
 
 .page-header button {
-  width: 60px;
+  width: 100px;
   height: 34px;
   border: 1px solid black;
+  border-radius: 4px;
+  color: white;
+  background-color: DodgerBlue;
   font-size: 12px;
   font-weight: normal;
   padding: 0 20px;
@@ -155,10 +158,6 @@ footer p {
 
 #have-an-acc-txt {
   margin-right: 5px;
-}
-
-#sign-in-btn {
-  width: auto;
 }
 
 .zero-bottom-margin {
