@@ -1,0 +1,231 @@
+body {
+  background-color: rgb(236, 238, 241);
+}
+
+p,
+span,
+label {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4c4c4c;
+}
+
+h2 {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4c4c4c;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: DodgerBlue;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+fieldset {
+  border: 0;
+}
+
+label {
+  display: block;
+  text-align: left;
+  padding-left: 5px;
+  font-size: 14px;
+}
+
+input {
+  width: 95%;
+  height: 30px;
+  text-align: left;
+  padding-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-color: #8d9096;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+form p {
+  font-style: italic;
+  color: #8d9096;
+  font-size: 9pt;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+footer {
+  margin-top: 25px;
+}
+
+footer p {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 9pt;
+}
+
+.page-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+.page-header p {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.page-header button {
+  width: 100px;
+  height: 34px;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: white;
+  background-color: DodgerBlue;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0 20px;
+}
+
+.block-display {
+  display: block;
+  text-align: center;
+}
+
+#logos {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#site-logo {
+  margin-bottom: 10px;
+}
+
+#logos img {
+  margin-left: 5px;
+}
+
+#logos-small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logos span {
+  margin-left: 2px;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.create-account {
+  border: 1px solid #8d9096;
+  border-radius: 3px;
+  text-align: center;
+  background-color: white;
+  width: 380px;
+  margin: auto;
+}
+
+.one-account {
+  color: #4c4c4c;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 90%;
+  background-color: DodgerBlue;
+  border: 1px solid white;
+  border-bottom: 0.5px solid #4c4c4c;
+  border-radius: 4px;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: center;
+  height: auto;
+}
+
+#have-an-acc-txt {
+  margin-right: 5px;
+}
+
+.zero-bottom-margin {
+  margin-bottom: 0;
+}
+
+#standard-call-text {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-left: 5px;
+  float: left;
+  font-size: 8pt !important;
+}
+
+#pass {
+  position: relative;
+}
+
+#pass i {
+  font-size: 14pt;
+  color: #8d9096;
+  right: 25px;
+  top: 42px;
+  position: absolute;
+}
+
+.agree-terms {
+  color: #4c4c4c;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#form-Invisible-reCAPTCHA-p {
+  height: 50px;
+  background-color: rgb(236, 238, 241);
+}
+
+#form-Invisible-reCAPTCHA-p span {
+  font-size: 8pt;
+  color: #8d9096;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#footer-links {
+  display: flex;
+  padding-right: 10px;
+  margin-top: 10px;
+  color: rgb(80, 80, 80);
+  justify-content: center;
+}
+
+#footer-links a {
+  margin-right: 10px;
+  font-size: 10pt;
+  color: rgb(80, 80, 80);
+}
+
+#footer-links a:hover {
+  text-decoration: underline;
+}
+
+#copy-right {
+  margin-left: 20%;
+  margin-right: 20%;
+}
